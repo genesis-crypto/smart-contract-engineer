@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "MY_UINT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\constants.sol": "Constants"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\constants.sol": {
+			"keccak256": "0x7bbd5887c715e7b879b762566c0defa8243ce974ebbcead50c5f7175cb8e93ee",
+			"license": "SEE LICENSE IN LICENSE",
+			"urls": [
+				"bzz-raw://872a8b97217e6bfee641a4d17e052b2ba8bbbfbfa5042b43c89cd2a7125b0012",
+				"dweb:/ipfs/QmbfeigkAsbpBH9MMCggSM8czwwtULq9accD1vPGz88XnB"
+			]
+		}
+	},
+	"version": 1
+}
