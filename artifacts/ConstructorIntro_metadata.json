@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\constructor.sol": "ConstructorIntro"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\constructor.sol": {
+			"keccak256": "0x80164a1787ea6e87bbca6b073b165cef489d13e3cdf548d357a3c94f1beb4c43",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://a5bd399b2a0ee6712830861a9ac0cc6cc166950b6eb112b8fe63ea8ef375f9ff",
+				"dweb:/ipfs/QmbGsaQcedjpQu5eUaWPjgGZpetVZRVaworZ6y2gsRwdgq"
+			]
+		}
+	},
+	"version": 1
+}
