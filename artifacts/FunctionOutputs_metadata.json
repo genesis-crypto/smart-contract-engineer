@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myFunc",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\function-outputs.sol": "FunctionOutputs"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\function-outputs.sol": {
+			"keccak256": "0x885c687df3ac71afaa7ef83924a1370dcc941b19fe4111671c40a8ea7f738db7",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://b32cb52fe74ecf83997c0ba80b65be89dfdf0408dda21fe1b41c34b488e34665",
+				"dweb:/ipfs/QmcqL7MoQxCueENqwn1vZhg23JXX232sr1xJT6iFEASTm5"
+			]
+		}
+	},
+	"version": 1
+}
