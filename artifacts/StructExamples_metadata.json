@@ -1,0 +1,146 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "getCar",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "model",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "year",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "owner",
+								"type": "address"
+							}
+						],
+						"internalType": "struct StructExamples.Car",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "ownerCar",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "model",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "year",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "model",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "year",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "owner",
+								"type": "address"
+							}
+						],
+						"internalType": "struct StructExamples.Car",
+						"name": "sample",
+						"type": "tuple"
+					}
+				],
+				"name": "setCar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\structs.sol": "StructExamples"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\structs.sol": {
+			"keccak256": "0xe2782446a29ae3adac2f0e36fe21d4394ec7d689aaba5da995af3827f2251cec",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://c2ae9bdd6c227536005685548a91052a7283c02c0e6ca54bb6c698c0bd37accb",
+				"dweb:/ipfs/QmdDmxgonx5heKfxRRWRKMSfwQfX9bpLh7AhkBLoY5PyoK"
+			]
+		}
+	},
+	"version": 1
+}
