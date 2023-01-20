@@ -6,7 +6,6 @@ contract ArrayReplaceLast {
 
     function remove(uint _index) external {
         require(_index < arr.length, "out of bound");
-
         delete arr[_index];
         arr[_index] = arr[arr.length - 1];
         arr.pop();
