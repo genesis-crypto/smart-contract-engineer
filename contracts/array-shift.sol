@@ -5,13 +5,12 @@ contract ArrayShift {
     uint[] public arr = [1, 2, 3];
 
     function remove(uint index) external {
+        require(index < arr.length, "out of bound");
         uint size = arr.length;
         delete arr[index];
-        uint old = arr[index];
 
-        for (uint i = index; i <= size - 1; i++) {
+        for (uint i = index; i < size - 1; i++) {
             arr[i] = arr[i + 1];
-            arr[i + 1] = old;
         }
         arr.pop();
     }
