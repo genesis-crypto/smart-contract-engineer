@@ -6,23 +6,42 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
-				"inputs": [
+				"inputs": [],
+				"name": "a",
+				"outputs": [
 					{
-						"indexed": false,
-						"internalType": "string",
-						"name": "details",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"name": "Details",
-				"type": "event"
+				"stateMutability": "view",
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getName",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "externalFunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "publicFunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -39,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts\\calling-parent-functions.sol": "Parent"
+			"contracts\\visibility.sol": "Parent"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -53,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts\\calling-parent-functions.sol": {
-			"keccak256": "0x19fbde9b8db8997fb62c11e80e5bc0dac6705d4ecbef22f70df207113a999697",
+		"contracts\\visibility.sol": {
+			"keccak256": "0x524947ea321e98f024d391a29e231cc3fc94b2e4b7229d4e2ec86d307861d2c6",
 			"license": "Unlicense",
 			"urls": [
-				"bzz-raw://d377e86181cdfa7e7f2b097272f0b4a74baef246d61f30bd2ea2721411cca51e",
-				"dweb:/ipfs/QmdyAWXHWabdtW4Qqd9i5KgNwr9r97Lb6WygvLun8CdYwh"
+				"bzz-raw://201bc56ca3a0b94763723e19f8cf1574a8dd7cd79b0404c59a57f7cea7582d25",
+				"dweb:/ipfs/QmaLku5HpsEM3gaqCxWTbf3eFGhJkfPW9XqL3XNhC9thMk"
 			]
 		}
 	},
