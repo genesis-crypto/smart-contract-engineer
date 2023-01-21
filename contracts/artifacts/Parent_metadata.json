@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "details",
+						"type": "string"
+					}
+				],
+				"name": "Details",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/calling-parent-functions.sol": "Parent"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/calling-parent-functions.sol": {
+			"keccak256": "0xfe54ed1a65ca53d207414afa5159e0b5299bf1010be90623286564648c2b21e8",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://5670672ecfcba9a5832e03cc2b5e7f760bf3bad55304a7a05a90a87550c32056",
+				"dweb:/ipfs/Qmaz6LZREMV9hdAYatCtnEZqEEN2t3fx54PsC3TnsnWpGg"
+			]
+		}
+	},
+	"version": 1
+}
