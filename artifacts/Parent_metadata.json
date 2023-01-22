@@ -7,7 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "a",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "age",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,7 +25,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "externalFunction",
+				"name": "getAge",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -28,17 +33,30 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "publicFunction",
+				"name": "getLocation",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "location",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -58,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts\\visibility.sol": "Parent"
+			"contracts\\interface.sol": "Parent"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -72,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts\\visibility.sol": {
-			"keccak256": "0x524947ea321e98f024d391a29e231cc3fc94b2e4b7229d4e2ec86d307861d2c6",
-			"license": "Unlicense",
+		"contracts\\interface.sol": {
+			"keccak256": "0x6df4d9e6dfd238971ceceae5147dfbcd199a14d12ec63d941998adf695654c73",
+			"license": "SEE LICENSE IN LICENSE",
 			"urls": [
-				"bzz-raw://201bc56ca3a0b94763723e19f8cf1574a8dd7cd79b0404c59a57f7cea7582d25",
-				"dweb:/ipfs/QmaLku5HpsEM3gaqCxWTbf3eFGhJkfPW9XqL3XNhC9thMk"
+				"bzz-raw://64c4697488c094f7dfa37c0e46aefd1ba37f75d5d0373968c240def696b9c000",
+				"dweb:/ipfs/Qmd4RgemdePgq3DCkbNHC6TqwFaDGJaDgbkVVi83KAKkvA"
 			]
 		}
 	},
