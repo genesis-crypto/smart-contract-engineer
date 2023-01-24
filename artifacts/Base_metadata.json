@@ -9,24 +9,48 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_name",
+						"name": "_first",
 						"type": "string"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "name",
-				"outputs": [
+					},
 					{
 						"internalType": "string",
-						"name": "",
+						"name": "_second",
 						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"name": "getHashEncoded",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_first",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_second",
+						"type": "string"
+					}
+				],
+				"name": "getHashEncodedPacked",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -43,7 +67,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts\\new.sol": "Base"
+			"contracts\\hash-function.sol": "Base"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -57,12 +81,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts\\new.sol": {
-			"keccak256": "0xfe48411b08adfa36adecf1040ae1606035c82d5ca02abe55c0013574e53ae406",
+		"contracts\\hash-function.sol": {
+			"keccak256": "0x95a5bff68c4d25113bf6b5da6a989c170804b9914be3cc12ecd3400797e261df",
 			"license": "SEE LICENSE IN LICENSE",
 			"urls": [
-				"bzz-raw://fb6345a9608d33de683cd8f9d0c14b2c156993451765f2d72eefb2ee1580185b",
-				"dweb:/ipfs/QmX3KSD8Lpyr418H48o7AEwxcCf6Kc26o59zd6gVjXgQPJ"
+				"bzz-raw://63f39cfc2d130ce41805717745a2d74e6a7595b6f5503b2631fa4c51ea35b057",
+				"dweb:/ipfs/QmXsPFVew8J17ecbCNfzeUrT78FdfAozwJQAYPkbgqeTTE"
 			]
 		}
 	},
