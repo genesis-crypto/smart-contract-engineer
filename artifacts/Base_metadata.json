@@ -7,7 +7,25 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "base",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getLocation",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -15,7 +33,20 @@
 						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -32,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts\\multiple-inheritance.sol": "Base"
+			"contracts\\low-level-call.sol": "Base"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts\\multiple-inheritance.sol": {
-			"keccak256": "0x7af26dcec6df81d0ed81bf1c5a3975a7b16fbcc948d8eea1ed4c3983a3a3190a",
-			"license": "Unlicense",
+		"contracts\\low-level-call.sol": {
+			"keccak256": "0xe1d081e53dfd45bd1c9c9a6ea9c912f2db5fa173778c3ded0af2a42b031c8924",
+			"license": "SEE LICENSE IN LICENSE",
 			"urls": [
-				"bzz-raw://b5ef7445ff9e7b783605bf08551117b64972cc1c6194d1f32c1b4a183536a6ee",
-				"dweb:/ipfs/QmPW7JugHKWs6cXG9BFV9MLBohMBCUQxXvTM2XxvkCwGXM"
+				"bzz-raw://ef0703cb56b6572add5135390d6fe8dbd5cc030448f330883bbfb17e341b7dd0",
+				"dweb:/ipfs/QmZXXd8i9g6RDnw48HyQEkcBAs5mDuxwPywgXJHCCj3Tk2"
 			]
 		}
 	},
