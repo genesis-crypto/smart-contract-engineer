@@ -11,34 +11,21 @@
 				"type": "constructor"
 			},
 			{
-				"inputs": [],
-				"name": "age",
-				"outputs": [
+				"anonymous": false,
+				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"indexed": false,
+						"internalType": "address",
+						"name": "caller",
+						"type": "address"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
+				"name": "Log",
+				"type": "event"
 			},
 			{
 				"inputs": [],
-				"name": "getAge",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getLocation",
+				"name": "getName",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -51,7 +38,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "location",
+				"name": "name",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -60,6 +47,32 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -76,7 +89,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts\\interface.sol": "Parent"
+			"contracts\\delegatecall.sol": "Parent"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -90,12 +103,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts\\interface.sol": {
-			"keccak256": "0x6df4d9e6dfd238971ceceae5147dfbcd199a14d12ec63d941998adf695654c73",
+		"contracts\\delegatecall.sol": {
+			"keccak256": "0x5ec767727ba002a41379533bf72d2b81c50890b915452f0cc69267f50640ec04",
 			"license": "SEE LICENSE IN LICENSE",
 			"urls": [
-				"bzz-raw://64c4697488c094f7dfa37c0e46aefd1ba37f75d5d0373968c240def696b9c000",
-				"dweb:/ipfs/Qmd4RgemdePgq3DCkbNHC6TqwFaDGJaDgbkVVi83KAKkvA"
+				"bzz-raw://609ae67a6c28fe0c3aebcaaec9ecb5d003439db2338121bec12f31ad88d2f885",
+				"dweb:/ipfs/QmY4bDUUFWzjEUHMzWY7ZQ7WkwR32tacuZqcFL1xJDi9j2"
 			]
 		}
 	},

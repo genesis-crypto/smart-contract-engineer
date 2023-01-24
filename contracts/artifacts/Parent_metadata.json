@@ -6,21 +6,71 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
 						"indexed": false,
-						"internalType": "string",
-						"name": "details",
-						"type": "string"
+						"internalType": "address",
+						"name": "caller",
+						"type": "address"
 					}
 				],
-				"name": "Details",
+				"name": "Log",
 				"type": "event"
 			},
 			{
 				"inputs": [],
 				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -39,7 +89,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/calling-parent-functions.sol": "Parent"
+			"contracts/delegatecall.sol": "Parent"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -53,12 +103,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/calling-parent-functions.sol": {
-			"keccak256": "0xfe54ed1a65ca53d207414afa5159e0b5299bf1010be90623286564648c2b21e8",
-			"license": "Unlicense",
+		"contracts/delegatecall.sol": {
+			"keccak256": "0x8c8131c5ecbadbe2f52d4f16727a5c589bec26dc2b083f47bffe116ce54450a3",
+			"license": "SEE LICENSE IN LICENSE",
 			"urls": [
-				"bzz-raw://5670672ecfcba9a5832e03cc2b5e7f760bf3bad55304a7a05a90a87550c32056",
-				"dweb:/ipfs/Qmaz6LZREMV9hdAYatCtnEZqEEN2t3fx54PsC3TnsnWpGg"
+				"bzz-raw://b328a1f57126d060e8f17d99c337bf6603bf052048e76d6d5ce4126eb5dd3d79",
+				"dweb:/ipfs/Qmbt7Jfe131oA5PZbQZsDYDs3G4JwQQ54TyaUWbHdgmU3M"
 			]
 		}
 	},
